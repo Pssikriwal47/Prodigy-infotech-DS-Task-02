@@ -32,20 +32,6 @@ The dataset is loaded using the pandas library, and the initial inspection invol
 - Summary information about the dataset, including data types and non-null counts.
 - Checking for missing values in each column.
 
-## Explanation of the Code:Loading and Inspecting Data:
-
-data=pd.read_csv("test.csv"): Load the CSV file into a DataFrame.data.head(), data.tail(): Preview the first and last 5 rows of the data.
-data.describe(): Get a summary of statistics for numerical columns.data.info(): Print the summary of the DataFrame including data types and non-null values.
-data.isnull().sum():
-Check for missing values in each column.Handling Missing Data:data.
-dropna(subset=["Embarked"], inplace=True): Remove rows where the 'Embarked' column has missing values.
-data["Cabin"].fillna("Unknown", inplace=True): Replace missing values in the 'Cabin' column with "Unknown".
-data["Age"].fillna(data["Age"].mean(), inplace=True): Fill missing 'Age' values with the mean age.
-Checking for Duplicates:data.duplicated().sum(): Check if there are any duplicate rows in the data.
-Data Visualization:Age Distribution:A histogram and KDE plot to visualize the distribution of 'Age'.
-Survival by Gender:A count plot to visualize the distribution of 'Sex' (gender).Age vs.
- Fare Scatter Plot:A scatter plot to explore the relationship between 'Age' and 'Fare', with 'Age' used as the hue for coloring.
-
 ```python
 import pandas as pd
 
