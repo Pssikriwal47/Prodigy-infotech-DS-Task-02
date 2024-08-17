@@ -1,6 +1,6 @@
 # Prodigy InfoTech Data Science Internship Task 2:
 <br>
-<img src="https://github.com/kindo-tk/PRODIGY_DS_02/blob/main/ds02.png"
+<img src="https://www.canva.com/design/DAFpRxy47kU/w9nxlJ4_CSLwekIRa0ttbg/view?utm_content=DAFpRxy47kU&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
 
 # Titanic Data Analysis
 
@@ -16,10 +16,6 @@ This repository contains code that performs basic data analysis and visualizatio
   - [Age Distribution](#age-distribution)
   - [Survival by Gender](#survival-by-gender)
   - [Age vs. Fare Scatter Plot](#age-vs-fare-scatter-plot)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -33,7 +29,9 @@ The dataset is loaded using the pandas library, and the initial inspection invol
 - Descriptive statistics for numerical columns.
 - Summary information about the dataset, including data types and non-null counts.
 - Checking for missing values in each column.
+
 ##Explanation of the Code:Loading and Inspecting Data:
+
 data=pd.read_csv("test.csv"): Load the CSV file into a DataFrame.data.head(), data.tail(): Preview the first and last 5 rows of the data.
 data.describe(): Get a summary of statistics for numerical columns.data.info(): Print the summary of the DataFrame including data types and non-null values.
 data.isnull().sum():
