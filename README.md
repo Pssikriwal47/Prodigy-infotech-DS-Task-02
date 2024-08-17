@@ -1,6 +1,7 @@
 # Prodigy InfoTech Data Science Internship Task 2:
 <br>
-<img src="https://www.canva.com/design/DAFpRxy47kU/w9nxlJ4_CSLwekIRa0ttbg/view?utm_content=DAFpRxy47kU&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+<img src="https://![ds 02](https://github.com/user-attachments/assets/adcc61f5-b4cc-46e4-8f3b-444f2a0958a2)
+"
 
 # Titanic Data Analysis
 
@@ -30,7 +31,7 @@ The dataset is loaded using the pandas library, and the initial inspection invol
 - Summary information about the dataset, including data types and non-null counts.
 - Checking for missing values in each column.
 
-##Explanation of the Code:Loading and Inspecting Data:
+## Explanation of the Code:Loading and Inspecting Data:
 
 data=pd.read_csv("test.csv"): Load the CSV file into a DataFrame.data.head(), data.tail(): Preview the first and last 5 rows of the data.
 data.describe(): Get a summary of statistics for numerical columns.data.info(): Print the summary of the DataFrame including data types and non-null values.
