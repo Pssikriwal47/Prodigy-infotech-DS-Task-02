@@ -1,8 +1,8 @@
 # Prodigy InfoTech Data Science Internship Task 2:
 <br>
-<img src="![ds 02](https://github.com/user-attachments/assets/c5c5b578-a703-4955-a92c-f2d8daa917d7)
+<img src="![ds 02](https://github.com/user-attachments/assets/7b69131b-a6c6-43b4-9539-4a17c359e363)
 
-"
+
 
 # Titanic Data Analysis
 
